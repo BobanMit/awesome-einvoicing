@@ -61,6 +61,7 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://www.mustangproject.org/use/ | 200 | 11 oct. 2026 | — | oui | HEAD 200 |
 | https://github.com/horstoeko/zugferd | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-02 ; stars 437 ; release `v1.0.132` (2026-08-30) | description « ZUGFeRD/XRechnung/Factur-X Library » ; README names `horstoeko/invoicesuite` as « The official successor » |
 | https://api.github.com/repos/horstoeko/zugferd | 200 | 11 oct. 2026 | MIT | oui | idem |
+| https://github.com/kadour-ia/Facturx-lire | 200 | 11 oct. 2026 | MIT (`LICENSE`, ajouté le 11/10 ; API `license.spdx_id` = `MIT`) | oui — push 2026-10-11 ; stars 0 ; not archived ; pas de release (`releases/latest` 404) | description API « Lire en clair une facture électronique reçue (Factur-X, ZUGFeRD, CII, UBL) — gratuit, 100% local. Réforme 2026. » ; README « Transparence » : écrit et maintenu par un agent d'IA autonome (déclaré) |
 | https://github.com/ZUGFeRD/mustangproject | 200 | 11 oct. 2026 | Apache-2.0 | oui — push **2026-10-10** ; stars **480** ; release `core-2.26.0` (2026-08-25) | description API Factur-X/ZUGFeRD |
 | https://github.com/akretion/factur-x | 200 | 11 oct. 2026 | API `NOASSERTION` ; `LICENSE.txt` BSD 3-clause | oui — push 2026-10-09 ; stars 310 ; release `7.5` (2026-10-09) |  |
 | https://raw.githubusercontent.com/akretion/factur-x/master/LICENSE | **404** | 11 oct. 2026 | — | — | vrai fichier = `LICENSE.txt` |

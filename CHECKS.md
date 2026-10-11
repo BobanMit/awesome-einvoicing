@@ -72,10 +72,10 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://github.com/invoicenavigator/validate-invoice | 200 | 11 oct. 2026 | MIT | oui — push 2026-03-02 ; stars 0 | **pas de release** (`releases/latest` 404) |
 | https://github.com/attestwire/validate-einvoice-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-04 ; stars 0 ; release `v1.10.0` (2026-10-04) | description API « Runs locally by default » ; release « v1.10.0: engine 0.14.1 » |
 | https://github.com/marketplace/actions/validate-e-invoice-en-16931 | 200 | 11 oct. 2026 | MIT (repo) | oui | fiche Marketplace attestwire |
-| https://github.com/marketplace/actions/validate-en16931-e-invoice | 200 | 11 oct. 2026 | EUPL 1.2 (repo ; API `NOASSERTION`) | oui | fiche Marketplace `facturxapi/validate-einvoice` ; latest release affichée `v1.1.0` |
+| https://github.com/marketplace/actions/validate-en16931-e-invoice | 200 | 11 oct. 2026 | EUPL 1.2 (repo ; API `NOASSERTION`) | oui | fiche Marketplace `facturxapi/validate-einvoice` ; latest release affichée `v1.1.2` (`v1.1.0` plus tôt le 11/10) |
 | https://github.com/attestwire/en16931 | 200 | 11 oct. 2026 | MIT (API `license.spdx_id`) | oui — push 2026-10-04 ; release `v0.14.1` (`published_at` 2026-10-06) ; stars 1 ; not archived | notes de release « Released 2026-10-04 » |
-| https://github.com/marketplace?type=actions&query=factur-x | 200 | 11 oct. 2026 | — | — | **« 4 results »** : `validate-e-invoice-en-16931`, `prufix`, `beliq-e-invoice-validate`, `invowerk-api` |
-| https://github.com/marketplace?type=actions&query=zugferd | 200 | 11 oct. 2026 | — | — | **« 2 results »** : `beliq-e-invoice-validate`, `invowerk-api` |
+| https://github.com/marketplace?type=actions&query=factur-x | 200 | 11 oct. 2026 | — | — | **« 5 results »** : `validate-en16931-e-invoice`, `validate-e-invoice-en-16931`, `prufix`, `beliq-e-invoice-validate`, `invowerk-api` (avant la release `v1.1.2` le même jour : « 4 results », sans `validate-en16931-e-invoice`) |
+| https://github.com/marketplace?type=actions&query=zugferd | 200 | 11 oct. 2026 | — | — | **« 3 results »** : `validate-en16931-e-invoice`, `beliq-e-invoice-validate`, `invowerk-api` (avant la release `v1.1.2` le même jour : « 2 results ») |
 | https://github.com/marketplace?type=actions&query=en16931 | 200 | 11 oct. 2026 | — | — | **« 1 result »** : `validate-en16931-e-invoice` |
 | https://github.com/awesome-einvoicing/awesome-einvoicing | **404** | 11 oct. 2026 | — | **inexistant** | pas une awesome GitHub |
 | https://api.github.com/search/repositories?q=awesome-einvoicing | 200 | 11 oct. 2026 | — | — | `total_count: 1` (`facturxapi/awesome-einvoicing`) |
@@ -89,11 +89,11 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://github.com/itplr-kosit/xrechnung-testsuite/releases/tag/v2026-01-31 | 200 | 11 oct. 2026 | Apache-2.0 | oui (n’est plus `releases/latest`) |  |
 | https://projekte.kosit.org/xrechnung/xrechnung-testsuite | 200 | 11 oct. 2026 | Apache (page GitLab) | oui | H1 `xrechnung-testsuite` |
 | https://raw.githubusercontent.com/itplr-kosit/xrechnung-testsuite/master/LICENSE | 200 | 11 oct. 2026 | Apache-2.0 | — |  |
-| https://github.com/facturxapi/validate-einvoice | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-09-01T08:45:34Z ; dernier commit `main` 2026-08-29 ; stars **4** | description API « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » ; `releases/latest` = `v1.1.0` ; tags `v1` et `v1.1.1` → `b1aec930…` |
+| https://github.com/facturxapi/validate-einvoice | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-11T20:32:33Z ; dernier commit `main` 2026-10-11 ; stars **4** | description API « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » ; `releases/latest` = `v1.1.2` ; tags `v1` et `v1.1.2` → `a805a904…` (`v1.1.1` → `b1aec930…`) |
 | https://api.github.com/repos/facturxapi/validate-einvoice | 200 | 11 oct. 2026 | `NOASSERTION` | oui | idem |
-| https://api.github.com/repos/facturxapi/validate-einvoice/git/refs/tags/v1 | 200 | 11 oct. 2026 | — | oui | object.sha `b1aec930b62fb29269263e58c665403f493103a2` (était `8457406…` au 18/08) |
+| https://api.github.com/repos/facturxapi/validate-einvoice/git/refs/tags/v1 | 200 | 11 oct. 2026 | — | oui | object.sha `a805a904f9fa1a7d51db5a4160e863748cc3733d` (`b1aec930…` plus tôt le 11/10, `8457406…` au 18/08) |
 | https://github.com/facturxapi/validate-einvoice/actions/runs/32089460503 | 200 | 11 oct. 2026 | — | — | page run publique (non citée dans le README) |
-| https://github.com/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-08-29T21:30:43Z ; stars **4** ; release `v1.1.0` (2026-08-21) | description API « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » ; workflow upstream-drift : dernier run planifié 2026-10-05 `success` |
+| https://github.com/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-11T20:29:33Z ; stars **4** ; release `v1.1.0` (2026-08-21) | description API « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » ; workflow upstream-drift : dernier run planifié 2026-10-05 `success` |
 | https://api.github.com/repos/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | `NOASSERTION` | oui | idem |
 | https://github.com/facturxapi/en16931-oracles/actions/runs/32081271235 | 200 | 11 oct. 2026 | — | — | page run publique (non citée dans le README) |
 | https://www.itb.ec.europa.eu/invoice/upload | 200 | 11 oct. 2026 | n/a (Commission) | oui | H1 « eInvoice Validator » ; options `cii`/`ubl`/`credit` « release 1.3.16 » |
@@ -138,11 +138,11 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | Get FacturX home | H1 « La boîte à outils Factur-X qui complète votre Plateforme Agréée » ; CTA 4 utilisations / jour ; HEAD 405 | H1 « Créez, envoyez et recevez vos factures Factur-X, sans ERP » ; CTA **absent** ; HEAD **200** |
 | Get FacturX `/validate` title | « Validateur Factur-X en ligne gratuit » | « Factur-X Validator : validateur Factur-X gratuit en ligne » |
 | Mustangproject site | 2.25.0 (05.08.2026) ; `Mustang-CLI-2.25.0.jar` | **2.26.0** (25.08.2026) ; `Mustang-CLI-2.26.0.jar` |
-| Marketplace `factur-x` | « 1 result » | « 4 results » (attestwire, prufix, beliq, invowerk) |
-| Marketplace `zugferd` | « 0 results » | « 2 results » (beliq, invowerk) |
+| Marketplace `factur-x` | « 1 result » | « 5 results » (facturxapi après `v1.1.2`, attestwire, prufix, beliq, invowerk) |
+| Marketplace `zugferd` | « 0 results » | « 3 results » (facturxapi après `v1.1.2`, beliq, invowerk) |
 | Marketplace `en16931` | non relevé dans ce fichier | « 1 result » (`facturxapi/validate-einvoice`) |
 | attestwire/validate-einvoice-action | tag `v1.0.0` | release **`v1.10.0`** (2026-10-04) |
-| facturxapi/validate-einvoice | stars 0 ; tag `v1` = `8457406…` | stars **4** ; description changée ; `releases/latest` `v1.1.0` ; tags `v1`, `v1.1.1` = `b1aec930…` |
+| facturxapi/validate-einvoice | stars 0 ; tag `v1` = `8457406…` | stars **4** ; description changée ; `releases/latest` `v1.1.2` ; tags `v1`, `v1.1.2` = `a805a904…` |
 | hernaninverso/validate-einvoice-action | dépôt à ce nom | **redirige vers `eleata/validate-einvoice-action`** ; description API changée |
 | akretion/factur-x | stars 303 ; `6.7` (2026-08-08) | stars **310** ; release **`7.5`** (2026-10-09) |
 | attestwire/en16931 | push 2026-08-18 ; tag `v0.7.3` (relevé 17 sept.) | push 2026-10-04 ; release **`v0.14.1`** |

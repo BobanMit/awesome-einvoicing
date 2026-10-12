@@ -62,4 +62,4 @@ Vérifiés HTTP 200 / API ce run ; last push 2026.
 
 - Republication des exemples FNFE / FeRD Infopaket : **À-TRANCHER** (gate ou disclaimer).
 - SPDX d’akretion/factur-x, causa-prima-ai/awesome-invoicing, facturxapi/* : fichiers ou NOTICE lus, API `NOASSERTION`.
-- Publication GitHub du *dépôt* : `facturxapi/awesome-einvoicing` (CC0), sous réserve de validation de publication.
+- Publication GitHub du *dépôt* : `facturxapi/awesome-einvoicing` (CC0).

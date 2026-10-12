@@ -19,6 +19,8 @@ This is a sourced list, not a ranking and not an endorsement.
 
 If you maintain a listed project, the line must match the format and length of the others in that section. Extra CI run IDs, topic dumps, or marketing claims will be trimmed.
 
+The same rule applies to the list maintainer's own projects: they sit at their alphabetical place, never first, and are marked *(list maintainer's project)*. The maintainer's commercial product is not listed.
+
 ## What we will not list
 
 - Generic linters / scanners that are not e-invoicing tools

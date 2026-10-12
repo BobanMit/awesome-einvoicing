@@ -76,6 +76,8 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [ITB — Commission eInvoice Validator](https://www.itb.ec.europa.eu/invoice/upload) — H1 « eInvoice Validator » ; types `cii` / `ubl` / `credit` labelled « release 1.3.16 ». REST `POST https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate` (HEAD 405). Not a GitHub repo.
 
+- [Kontevia — E-Rechnung prüfen](https://kontevia.de/tools/e-rechnung-pruefen) — H1 « E-Rechnung prüfen: XRechnung und ZUGFeRD Validator online, ohne Upload » ; page states « Kostenlos, ohne Anmeldung » and « Die Prüfung läuft in Ihrem Browser, die Datei wird nicht hochgeladen » ; « Der Prüfer ist keine Schematron-Validierung ». Price [non-mesure].
+
 - [Mustangproject — CLI validate](https://www.mustangproject.org/commandline/) — home: « Mustangproject 2.26.0 was released on 25.08.2026 » ; « Support for ZUGFeRD 2.5.2 (=Factur-X 1.09.2, #1216) » (2.25.0 note). CLI page: Validate + `Mustang-CLI-2.26.0.jar`. CLI **not executed** this run (`[non-mesure]` runtime).
 
 - [thelawin.dev](https://thelawin.dev/) — H1 « The E-Invoicing Engine » ; site labels « Factur-X 1.0.8 », « ZUGFeRD 2.4 » (FNFE/FeRD pack this day = 1.09.2 / 2.5.2). [Pricing](https://thelawin.dev/pricing): Sandbox `€0`, Starter `€9.50 /month`, Pro `€24.50 /month`, « Beta pricing: 50% off all paid plans ».

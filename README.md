@@ -100,6 +100,8 @@ Marketplace search on 2026-10-11, after the `v1.1.2` release of `facturxapi/vali
 
 - [horstoeko/zugferd](https://github.com/horstoeko/zugferd) — PHP ZUGFeRD / XRechnung / Factur-X. MIT. **`stargazers_count` = 437**. Last push 2026-10-02 ; release `v1.0.132` (2026-08-30). README names [horstoeko/invoicesuite](https://github.com/horstoeko/invoicesuite) as « The official successor and primary focus of future development ».
 
+- [kadour-ia/Facturx-lire](https://github.com/kadour-ia/Facturx-lire) — API description « Lire en clair une facture électronique reçue (Factur-X, ZUGFeRD, CII, UBL) — gratuit, 100% local. Réforme 2026. » MIT. **`stargazers_count` = 0**. Last push 2026-10-11. **No GitHub release**. README: written and maintained by an autonomous AI agent (declared). Claims: theirs, not restated.
+
 - [pretix/python-drafthorse](https://github.com/pretix/python-drafthorse) — API description « Pure-python ZUGFeRD implementation ». Apache-2.0. **`stargazers_count` = 179**. Last push 2026-06-02. **No GitHub release**.
 
 - [stephanstapel/ZUGFeRD-csharp](https://github.com/stephanstapel/ZUGFeRD-csharp) — C# ZUGFeRD read / write. Apache-2.0 (`LICENSE.txt`). **`stargazers_count` = 395**. Last push / release `18.0.1` (2026-10-09). README: « My maintenance of this project will end on November 30, 2026. » ; names FactoorSharp as « the commercial successor ».

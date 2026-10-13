@@ -53,7 +53,6 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://formatx.fr/api-docs | 200 | 11 oct. 2026 | n/a | oui | « Aucun quota mensuel, aucune facturation. » ; « 60 requêtes/minute » ; quotas Free 10 / Pro 100 / Business 500 **absents** |
 | https://facturx-validator.fr/ | 200 | 11 oct. 2026 | n/a ; « open source » sans lien de dépôt | oui | H1 « Vérifiez vos factures Factur-X gratuitement » ; « Outil gratuit et open source » |
 | https://facturx-validator.fr/verifier | 200 | 11 oct. 2026 | n/a | oui | « Fichier PDF uniquement (max. 10 Mo) » ; profils Minimum, Basic, EN16931, Extended |
-| https://facturxapi.com/ | 200 | 11 oct. 2026 | n/a | oui | H1 « Ajoutez Factur-X à votre logiciel sans remplacer votre outil de facturation. » ; « Tarifs publics » « Sandbox 0€, Launch 39€, Scale 149€. » |
 | https://invoicein.peculiar.systems/ | 200 | 11 oct. 2026 | service : non publiée ; exemples MIT (github.com/peculiar-systems/invoicein-examples) | oui — page « Beta pricing » | « Every e-invoice you receive, as one JSON. » ; Free €0 100 invoices ; Starter €29 ; Growth €99 ; Scale €399 |
 | https://invoicein-api.peculiar.systems/docs | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | référence API (lien README) |
 | https://www.mustangproject.org/ | 200 | 11 oct. 2026 | Apache-2.0 (dépôt) | oui — 25.08.2026 | « Mustangproject 2.26.0 was released on 25.08.2026 » ; support ZUGFeRD 2.5.2 (note 2.25.0) |
@@ -133,7 +132,7 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | FNFE-MPE Ressources | schematrons BR-FR-CTC fix03 du 4 août | **fix04 du 4 septembre** (`…V1.4.0.04.zip`) |
 | ConnectingEurope/eInvoicing-EN16931 | push 2026-04-14 ; stars 252 | push **2026-10-11** (fusion branche `validation-1.3.17`, sans tag ni release) ; stars 259 |
 | Registre EC EN16931 | 1.3.16 | 1.3.16 (publication automne annoncée « next 09 Oct 2026 », rien de listé au 11/10) |
-| FacturX API | prix `[non-mesure]` | « Sandbox 0€, Launch 39€, Scale 149€. » |
+| FacturX API | prix `[non-mesure]` | **retiré** (produit commercial du mainteneur de la liste) |
 | FormatX title | « FormatX - Convertir PDF en Factur-X gratuitement » | « … \| Facture électronique conforme » |
 | FormatX `/api-docs` | Free 10 / Pro 100 / Business 500 factures/mois | « Aucun quota mensuel, aucune facturation. » ; 60 requêtes/minute |
 | Get FacturX home | H1 « La boîte à outils Factur-X qui complète votre Plateforme Agréée » ; CTA 4 utilisations / jour ; HEAD 405 | H1 « Créez, envoyez et recevez vos factures Factur-X, sans ERP » ; CTA **absent** ; HEAD **200** |

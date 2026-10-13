@@ -6,15 +6,9 @@ Sourced map / curated list of **e-invoicing** specs, docs, validators, libraries
 >
 > Each line is **factual** (what the page or GitHub API said this run). Prices only if they appear in the HTML ; otherwise `[non-mesure]`. Words like “valide / conforme / répare” are the site’s, not ours.
 
+Maintained by the team behind FacturX API (a commercial product, not listed here). Its open-source projects follow the same rules as every other entry and are marked *(list maintainer's project)*.
+
 HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [`LICENSE-NOTES.md`](LICENSE-NOTES.md). Frame: [`NOTICE.md`](NOTICE.md). How to add a line: [`CONTRIBUTING.md`](CONTRIBUTING.md). List text: [CC0 1.0](LICENSE).
-
-## Which FacturX repo should I use?
-
-- [validate-einvoice](https://github.com/facturxapi/validate-einvoice) — GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL).
-- [en16931-oracles](https://github.com/facturxapi/en16931-oracles) — Replayable fixtures, receipts and mutants for that same 1.3.16 pin, plus a BR-FR pack for the French Flux2 rules (France_RFE `v1.4.0.02` / `v1.4.0.03`).
-- [awesome-einvoicing](https://github.com/facturxapi/awesome-einvoicing) — Sourced map of specs, validators, libraries and corpora. Inclusion is not a ranking.
-
----
 
 ## Contents
 
@@ -66,8 +60,6 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [facturx-validator.fr](https://facturx-validator.fr/) — H1 « Vérifiez vos factures Factur-X gratuitement » ; footer « Outil gratuit et open source. » [`/verifier`](https://facturx-validator.fr/verifier): « Fichier PDF uniquement (max. 10 Mo) » ; profiles Minimum, Basic, EN16931, Extended. Euro price `[non-mesure]`. No repo link on the pages opened (`[non-mesure]` repo).
 
-- [FacturX API](https://facturxapi.com/) — H1 « Ajoutez Factur-X à votre logiciel sans remplacer votre outil de facturation. » Home: « Tarifs publics » « Sandbox 0€, Launch 39€, Scale 149€. » Home only. Claims: theirs, not restated.
-
 - [FormatX](https://formatx.fr/) — title « FormatX - Convertir PDF en Factur-X gratuitement | Facture électronique conforme » ; schema.org `"price":"0","priceCurrency":"EUR"`. [`/api-docs`](https://formatx.fr/api-docs): « Accès libre pendant la phase de pré-commercialisation. Aucun quota mensuel, aucune facturation. » ; « Un rate limit technique de 60 requêtes/minute reste en place pour la stabilité du service. » ; « Une grille tarifaire sera mise en place à terme. »
 
 - [Get FacturX](https://www.getfacturx.com/) — H1 « Créez, envoyez et recevez vos factures Factur-X, sans ERP » ; title « Facturation Factur-X en ligne et gratuite | Get Factur-X ». [`/validate`](https://www.getfacturx.com/validate) title « Factur-X Validator : validateur Factur-X gratuit en ligne » ; « La validation de base est gratuite pour une facture à la fois. » Euro tariff `[non-mesure]`. Home HEAD = 200, GET = 200.
@@ -82,13 +74,13 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 ## GitHub Actions
 
-Marketplace search on 2026-10-11, after the `v1.1.2` release of `facturxapi/validate-einvoice`: [`factur-x`](https://github.com/marketplace?type=actions&query=factur-x) → « 5 results »: [Validate EN16931 e-invoice](https://github.com/marketplace/actions/validate-en16931-e-invoice) (`facturxapi/validate-einvoice`), [Validate E-Invoice (EN 16931)](https://github.com/marketplace/actions/validate-e-invoice-en-16931) (`attestwire/validate-einvoice-action`), `prufix`, `beliq-e-invoice-validate`, `invowerk-api`. [`zugferd`](https://github.com/marketplace?type=actions&query=zugferd) → « 3 results »: `validate-en16931-e-invoice`, `beliq-e-invoice-validate`, `invowerk-api`. [`en16931`](https://github.com/marketplace?type=actions&query=en16931) → « 1 result »: [Validate EN16931 e-invoice](https://github.com/marketplace/actions/validate-en16931-e-invoice) (`facturxapi/validate-einvoice`). Search results are listed here, not added as entries.
+Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`factur-x`](https://github.com/marketplace?type=actions&query=factur-x) → « 5 results »: `validate-en16931-e-invoice`, `validate-e-invoice-en-16931`, `prufix`, `beliq-e-invoice-validate`, `invowerk-api`. [`zugferd`](https://github.com/marketplace?type=actions&query=zugferd) → « 3 results »: `validate-en16931-e-invoice`, `beliq-e-invoice-validate`, `invowerk-api`. [`en16931`](https://github.com/marketplace?type=actions&query=en16931) → « 1 result »: `validate-en16931-e-invoice`. Search results are listed here, not added as entries.
 
-- [attestwire/validate-einvoice-action](https://github.com/attestwire/validate-einvoice-action) — created 2026-08-16 ; API description « Validate EN 16931 e-invoices (UBL, CII, Factur-X PDF) in CI. Runs locally by default — no API key, no network. » MIT. **`stargazers_count` = 0**. Release `v1.10.0` « v1.10.0: engine 0.14.1 » (2026-10-04). Marketplace card above. Claims: theirs, not restated.
+- [attestwire/validate-einvoice-action](https://github.com/attestwire/validate-einvoice-action) — created 2026-08-16 ; API description « Validate EN 16931 e-invoices (UBL, CII, Factur-X PDF) in CI. Runs locally by default — no API key, no network. » MIT. **`stargazers_count` = 0**. Release `v1.10.0` « v1.10.0: engine 0.14.1 » (2026-10-04). Marketplace card: Validate E-Invoice (EN 16931). Claims: theirs, not restated.
 
 - [eleata/validate-einvoice-action](https://github.com/eleata/validate-einvoice-action) — formerly `hernaninverso/validate-einvoice-action` (old URL redirects) ; API description « Validate EU e-invoices (Peppol BIS, EN 16931, XRechnung, Factur-X, UBL, CII) in CI — backed by eleata.io, with plain-English fix hints per error. » Composite Action ; `action.yml` name `Validate EU e-Invoice` ; `format` includes `factur-x` ; default `api-base` `https://api.eleata.io`. Apache-2.0. **`stargazers_count` = 0**. Last push 2026-05-25. Claims: theirs, not restated.
 
-- [facturxapi/validate-einvoice](https://github.com/facturxapi/validate-einvoice) — API description « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » File license EUPL 1.2 (API `NOASSERTION`). **`stargazers_count` = 4** (2026-10-11). Latest GitHub release `v1.1.2` (2026-10-11) ; tags `v1` and `v1.1.2` → `a805a904f9fa1a7d51db5a4160e863748cc3733d` (`main`, 2026-10-11). Marketplace card: https://github.com/marketplace/actions/validate-en16931-e-invoice.
+- [facturxapi/validate-einvoice](https://github.com/facturxapi/validate-einvoice) — API description « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » EUPL 1.2 (API `NOASSERTION`). **`stargazers_count` = 4**. Release `v1.1.2` (2026-10-11). *(list maintainer's project)*
 
 - [invoicenavigator/validate-invoice](https://github.com/invoicenavigator/validate-invoice) — Action `node20` ; API description « GitHub Action to validate EU e-invoices against EN 16931, Peppol, XRechnung, and ZUGFeRD ». MIT. **`stargazers_count` = 0**. Last push 2026-03-02. **No release**. **Not a Marketplace card.**
 
@@ -114,7 +106,7 @@ Only publicly licensed, still-living example sets. FNFE ZIP (email gate) and FeR
 
 - [ConnectingEurope — EN 16931 v1.3.16 examples](https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.16) — release « EN16931 Validation artefacts v1.3.16 » ; body: examples in folder `"examples"` ; EUPL 1.2 ; assets `en16931-cii-1.3.16.zip`, `en16931-ubl-1.3.16.zip`.
 
-- [facturxapi/en16931-oracles](https://github.com/facturxapi/en16931-oracles) — API description « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » API `NOASSERTION`. **`stargazers_count` = 4** (2026-10-11). Latest release `v1.1.0` « v1.1.0 — BR-FR Flux2 oracles (France_RFE v1.4.0.x) » (2026-08-21). Weekly upstream-drift workflow: last scheduled run 2026-10-05 `success`.
+- [facturxapi/en16931-oracles](https://github.com/facturxapi/en16931-oracles) — API description « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » API `NOASSERTION`. **`stargazers_count` = 4**. Release `v1.1.0` « v1.1.0 — BR-FR Flux2 oracles (France_RFE v1.4.0.x) » (2026-08-21). *(list maintainer's project)*
 
 - [itplr-kosit/xrechnung-testsuite](https://github.com/itplr-kosit/xrechnung-testsuite) — GitHub mirror of KoSIT ([GitLab](https://projekte.kosit.org/xrechnung/xrechnung-testsuite) HTTP 200). Apache-2.0. Last push 2026-09-08. Release `v2026-08-31` « Testsuite release in version 2026-08-31 compatible with XRechnung 3.0 » (2026-09-02): asset `xrechnung-3.0.2-testsuite-2026-08-31.zip`.
 

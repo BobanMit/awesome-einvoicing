@@ -120,6 +120,8 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 - [phax/ph-fatturapa](https://github.com/phax/ph-fatturapa) — API description « Java library to easily read and write XSD compliant fatturaPA 1.2 and 1.2.1 invoices » ; README lists versions 1.2 to 1.2.3. Apache-2.0. **`stargazers_count` = 12**. Last push 2026-10-09 ; release `v3.1.1` (2026-09-30).
 
+- [phax/ph-redact](https://github.com/phax/ph-redact) — API description « Simple eInvoice Anonymizer » ; README: XSLT-based XML anonymiser for UBL and CII (EN 16931:2017 UBL 2.1 / CII D16B, EN 16931:2026 UBL 2.5 / CII D25A) that keeps structure, monetary and tax values. Apache-2.0. **`stargazers_count` = 3**. Last push 2026-10-09 ; release `v1.1.0` (2026-09-08).
+
 - [phax/ph-ubl](https://github.com/phax/ph-ubl) — API description « Java library for reading and writing UBL 2.0, 2.1, 2.2, 2.3, 2.4 and 2.5 documents ». Apache-2.0. **`stargazers_count` = 141**. Last push 2026-10-17 ; release `v10.2.1` (2026-08-27).
 
 - [pretix/python-drafthorse](https://github.com/pretix/python-drafthorse) — API description « Pure-python ZUGFeRD implementation ». Apache-2.0. **`stargazers_count` = 179**. Last push 2026-06-02. **No GitHub release**.

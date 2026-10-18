@@ -71,6 +71,19 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://github.com/pretix/python-drafthorse | 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-06-02 ; stars 179 | description API « Pure-python ZUGFeRD implementation » ; **pas de release** (`releases/latest` 404) |
 | https://github.com/stephanstapel/ZUGFeRD-csharp | 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-10-09 ; stars 395 ; release `18.0.1` (2026-10-09) | README « My maintenance of this project will end on November 30, 2026. » ; FactoorSharp « the commercial successor » |
 | https://raw.githubusercontent.com/stephanstapel/ZUGFeRD-csharp/master/LICENSE | **404** | 11 oct. 2026 | — | — | vrai fichier = `LICENSE.txt` |
+| https://github.com/phax/phive | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-08 ; stars 77 ; release `v12.2.0` (2026-09-28) ; not archived | description API « Generic business document validation engine » ; README : règles dans un dépôt séparé |
+| https://github.com/phax/phive-rules | 200 | 18 oct. 2026 | API `NOASSERTION` ; README « The Java code in this project is licensed under the Apache 2 license. » | oui — push 2026-10-17 ; stars 52 ; release `v4.6.3` (2026-09-30) ; not archived | modules `phive-rules-en16931`, `phive-rules-xrechnung`, `phive-rules-zugferd` ; artefacts de validation sous licences propres (`NOTICE` par module) |
+| https://github.com/phax/phorm | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-18 ; stars 32 ; release `v2.2.11` (2026-09-30) ; not archived | description API « Phorm - Business Document Validation Service » ; README « accessible by API only » |
+| https://github.com/phax/en16931-cii2ubl | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-08 ; stars 47 ; release `v4.0.2` (2026-10-07) | CII D16B → UBL 2.1 ; CII D25A → UBL 2.5 |
+| https://github.com/phax/en16931-purifier | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-08 ; stars 1 ; release `v1.1.0` (2026-09-06) | « this project is not a converter » |
+| https://github.com/phax/en16931-ubl2cii | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-08 ; stars 10 ; release `v3.0.1` (2026-10-07) | UBL 2.1 → CII D16B ; UBL 2.5 → CII D25A |
+| https://github.com/phax/erechnung.gv.at-webservice-client | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-09 ; stars 3 ; release `v5.0.1` (2025-11-17) | « NOT affiliate with BRZ/Bundesrechenzentrum » |
+| https://github.com/phax/kaltblut | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-18 ; stars 6 ; release `v0.9.5` (2026-08-09) ; not archived | description API « Java library helping you to handle ZUGFeRD invoices » ; PDF/A-3 via veraPDF ; XML-side rules hors périmètre |
+| https://github.com/phax/ph-cii | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-08 ; stars 15 ; release `v4.1.3` (2026-09-22) | D16A.1, D16B, D22B, D25A |
+| https://github.com/phax/ph-ebinterface | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-18 ; stars 2 ; release `v8.1.1` (2026-10-07) | ebInterface 3.0 à 6.1 |
+| https://github.com/phax/ph-fatturapa | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-09 ; stars 12 ; release `v3.1.1` (2026-09-30) | fatturaPA 1.2 à 1.2.3 (README) ; description API 1.2 et 1.2.1 |
+| https://github.com/phax/ph-redact | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-09 ; stars 3 ; release `v1.1.0` (2026-09-08) | description API « Simple eInvoice Anonymizer » ; anonymiseur XSLT UBL / CII |
+| https://github.com/phax/ph-ubl | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-17 ; stars 141 ; release `v10.2.1` (2026-08-27) | UBL 2.0 à 2.5 |
 | https://github.com/hernaninverso/validate-einvoice-action | 301 → 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-05-25 ; stars 0 ; release `v1` (2026-05-25) | redirige vers `eleata/validate-einvoice-action` (API `full_name`) ; description API « backed by eleata.io » ; `action.yml` default `api-base` `https://api.eleata.io` |
 | https://github.com/invoicenavigator/validate-invoice | 200 | 11 oct. 2026 | MIT | oui — push 2026-03-02 ; stars 0 | **pas de release** (`releases/latest` 404) |
 | https://github.com/attestwire/validate-einvoice-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-04 ; stars 0 ; release `v1.10.0` (2026-10-04) | description API « Runs locally by default » ; release « v1.10.0: engine 0.14.1 » |
@@ -218,11 +231,12 @@ Aucun dépôt de la liste principale n’est `archived`.
 | SPDX / constat | Entrées |
 |---|---|
 | EUPL 1.2 (fichier ; API NOASSERTION) | ConnectingEurope/eInvoicing-EN16931 ; facturxapi/validate-einvoice (NOTICE) |
-| Apache-2.0 | France_RFE, mustangproject, python-drafthorse, ZUGFeRD-csharp, xrechnung-testsuite, eleata (ex-hernaninverso), trivy-action |
+| Apache-2.0 | France_RFE, mustangproject, phax/phive, phax/phorm, phax/kaltblut, phax/en16931-cii2ubl, phax/en16931-purifier, phax/en16931-ubl2cii, phax/erechnung.gv.at-webservice-client, phax/ph-cii, phax/ph-ebinterface, phax/ph-fatturapa, phax/ph-redact, phax/ph-ubl, python-drafthorse, ZUGFeRD-csharp, xrechnung-testsuite, eleata (ex-hernaninverso), trivy-action |
 | MIT | horstoeko/zugferd, invoicenavigator, attestwire (Action + en16931), reviewdog/action-eslint, golangci-lint-action |
 | CC0-1.0 | sdras/awesome-actions, morganrcu/awesome-europe ; **texte de cette liste** |
 | CC0 1.0 (fichier ; API NOASSERTION) | causa-prima-ai/awesome-invoicing |
 | BSD 3-clause (fichier ; API NOASSERTION) | akretion/factur-x |
+| API `NOASSERTION` ; README Apache 2 (code Java) | phax/phive-rules |
 | AGPL-3.0 | oxsecurity/megalinter (exclu README) |
 | `licence: null` | e-invoice-be/awesome-peppol |
 | n/a | sites validateurs, FNFE gate, FeRD Infopaket, boutique AFNOR, pages .gouv, ITB |

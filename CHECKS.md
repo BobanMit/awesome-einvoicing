@@ -11,18 +11,21 @@ Seuil d’alerte : archived, 404, README d’une ligne, last push > 18 mois.
 
 Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 
+Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`) : lignes touchées par la publication EN16931 1.3.17 seulement (voir « Deltas vs 11 oct. 2026 »).
+
 ---
 
 ## Table
 
 | URL | HTTP | Date fetch | Licence | Vit encore ? | Citation courte |
 |---|---|---|---|---|---|
-| https://github.com/ConnectingEurope/eInvoicing-EN16931 | 200 | 11 oct. 2026 | EUPL 1.2 (`LICENSE.txt`) ; API `NOASSERTION` | oui — push 2026-10-11 ; stars 259 ; not archived | description API « Validation artefacts for the European eInvoicing standard EN 16931 » ; `master` a fusionné la branche `validation-1.3.17` le 2026-10-11 ; aucun tag ni release `validation-1.3.17` ce run |
-| https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/README.md | 200 | 11 oct. 2026 | (même dépôt) | oui | « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » |
-| https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/LICENSE.txt | 200 | 11 oct. 2026 | EUPL 1.2 | — | « Licensed under European Union Public Licence (EUPL) version 1.2. » |
-| https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.16 | 200 | 11 oct. 2026 | EUPL 1.2 (body) | oui — 2026-04-13 ; toujours `releases/latest` | assets `en16931-cii-1.3.16.zip`, `en16931-ubl-1.3.16.zip` |
-| https://api.github.com/repos/ConnectingEurope/eInvoicing-EN16931 | 200 | 11 oct. 2026 | `NOASSERTION` | push 2026-10-11 ; stars 259 | idem description |
-| https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931 | 200 | 11 oct. 2026 | n/a (page Commission) | oui | dernière version listée 1.3.16 « Published: 16/04/26 » ; calendrier validation artefacts automne 2026 : publication « next 09 Oct 2026 », effet « next 16 Nov 2026 » ; aucune 1.3.17 listée |
+| https://github.com/ConnectingEurope/eInvoicing-EN16931 | 200 | 18 oct. 2026 | EUPL 1.2 (`LICENSE.txt`) ; API `NOASSERTION` | oui — push 2026-10-12 ; stars 261 ; not archived | description API « Validation artefacts for the European eInvoicing standard EN 16931 » ; `releases/latest` = `validation-1.3.17` (2026-10-12T12:28:45Z) |
+| https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/README.md | 200 | 18 oct. 2026 | (même dépôt) | oui | « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » |
+| https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/LICENSE.txt | 200 | 18 oct. 2026 | EUPL 1.2 | — | « Licensed under European Union Public Licence (EUPL) version 1.2. » |
+| https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.17 | 200 | 18 oct. 2026 | EUPL 1.2 (body) | oui — 2026-10-12 ; `releases/latest` | assets `en16931-cii-1.3.17.zip`, `en16931-ubl-1.3.17.zip` ; notes : #499 à #525, dont #519 (renommage `BR-AF`/`BR-AG` → `BR-IP`/`BR-IG`) |
+| https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.16 | 200 | 18 oct. 2026 | EUPL 1.2 (body) | oui — 2026-04-13 ; plus `releases/latest` | assets `en16931-cii-1.3.16.zip`, `en16931-ubl-1.3.16.zip` |
+| https://api.github.com/repos/ConnectingEurope/eInvoicing-EN16931 | 200 | 18 oct. 2026 | `NOASSERTION` | push 2026-10-12 ; stars 261 | idem description |
+| https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931 | 200 | 18 oct. 2026 | n/a (page Commission) | oui | « (latest versions) – EN16931 Validation artefacts for UBL 2.1 - version 1.3.17 – EN16931 Validation artefacts for CII 16b - version 1.3.17 » ; « 15 /11/26 \| Published: 12/10/26 » |
 | https://fnfe-mpe.org/factur-x/ | 200 | 11 oct. 2026 | non publiée (gate e-mail) | oui — « Le 4 août 2026 » | « Factur-X 1.09.2 et ZUGFeRD 2.5.2 » ; « Merci de renseigner votre email pour le téléchargement » |
 | https://fnfe-mpe.org/ressources/ | 200 | 11 oct. 2026 | n/a (page) | oui — 30 juin / 4 septembre 2026 | XP Z12-012 1.4.0 ; « Version 1.4.0 des schematrons » (fix04 du 4 septembre) ; fichier `2026_09_04_FNFE_SCHEMATRONS_FR_CTC_V1.4.0.04.zip` |
 | https://www.ferd-net.de/ | 200 | 11 oct. 2026 | n/a (page) | oui — 04.08.2026 | « ZUGFeRD 2.5.2 veröffentlicht » ; « Eschborn \| Paris, 04.08.2026 » |
@@ -96,7 +99,7 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://github.com/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-11T20:29:33Z ; stars **4** ; release `v1.1.0` (2026-08-21) | description API « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » ; workflow upstream-drift : dernier run planifié 2026-10-05 `success` |
 | https://api.github.com/repos/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | `NOASSERTION` | oui | idem |
 | https://github.com/facturxapi/en16931-oracles/actions/runs/32081271235 | 200 | 11 oct. 2026 | — | — | page run publique (non citée dans le README) |
-| https://www.itb.ec.europa.eu/invoice/upload | 200 | 11 oct. 2026 | n/a (Commission) | oui | H1 « eInvoice Validator » ; options `cii`/`ubl`/`credit` « release 1.3.16 » |
+| https://www.itb.ec.europa.eu/invoice/upload | 200 | 18 oct. 2026 | n/a (Commission) | oui | H1 « eInvoice Validator » ; options `cii`/`ubl`/`credit` « release 1.3.17 » |
 | https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate | HEAD **405** / GET **405** | 11 oct. 2026 | n/a | endpoint POST (HEAD/GET refusés) | attendu pour une API REST ; non un 404 |
 | https://einvoicevalidator.eu/en | 200 | 14 oct. 2026 | n/a (service web ; dépôt privé) | oui | title « E-Invoice Validator: check XRechnung & ZUGFeRD free » ; H1 « E-invoice validator. Free, no sign-up. » |
 | https://kontevia.de/tools/e-rechnung-pruefen | 200 | 12 oct. 2026 | n/a | oui | title « E-Rechnung prüfen: XRechnung, ZUGFeRD Validator \| Kontevia » ; « Kostenlos, ohne Anmeldung » |
@@ -124,6 +127,17 @@ Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 | https://api.eleata.io | GET 502 (2 essais) | racine seulement ; valeur par défaut `api-base` de `eleata/validate-einvoice-action`, pas un lien README ; endpoints de l’API non appelés |
 
 ---
+
+## Deltas vs 11 oct. 2026
+
+Relevé partiel du 18 oct. 2026, limité à la publication EN16931 1.3.17.
+
+| Entrée | 11/10 | 18/10 |
+|---|---|---|
+| ConnectingEurope/eInvoicing-EN16931 | branche `validation-1.3.17` fusionnée, sans tag ni release ; stars 259 | release **`validation-1.3.17`** (2026-10-12T12:28:45Z), `releases/latest` ; stars 261 |
+| Registre EC EN16931 | dernière version 1.3.16 (16/04/26) | **1.3.17**, « Published: 12/10/26 », date d'effet 15/11/26 |
+| ITB eInvoice Validator | « release 1.3.16 » | « release 1.3.17 » |
+| ConnectingEurope examples (Corpora) | release `validation-1.3.16` | release **`validation-1.3.17`** |
 
 ## Deltas vs 18 août 2026
 

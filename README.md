@@ -24,7 +24,7 @@ HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [
 
 ## Specs
 
-- [ConnectingEurope/eInvoicing-EN16931](https://github.com/ConnectingEurope/eInvoicing-EN16931) — official EN 16931 Schematron artefacts (UBL + CII) ; latest UBL & CII **v1.3.16** (2026-04-10) ; README: « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » File `LICENSE.txt` EUPL 1.2 (API `license.spdx_id` = `NOASSERTION`).
+- [ConnectingEurope/eInvoicing-EN16931](https://github.com/ConnectingEurope/eInvoicing-EN16931) — official EN 16931 Schematron artefacts (UBL + CII) ; latest UBL & CII **v1.3.17** (2026-10-12) ; README: « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » File `LICENSE.txt` EUPL 1.2 (API `license.spdx_id` = `NOASSERTION`).
 
 - [FeRD — ZUGFeRD / Factur-X](https://www.ferd-net.de/) — Forum elektronische Rechnung Deutschland ; home: « ZUGFeRD 2.5.2 veröffentlicht » ; « Eschborn | Paris, 04.08.2026 ».
 
@@ -40,7 +40,7 @@ HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [
 
 - [DGFiP — reform FAQ](https://www.impots.gouv.fr/professionnel/questions/dans-le-cadre-de-la-reforme-de-la-facturation-electronique-comment-devrais) — « À compter du 1er septembre 2026 , toutes les entreprises assujetties à la TVA […] devront être en capacité de recevoir des factures électroniques ». « septembre 2027 » **absent** from the HTML this run.
 
-- [European Commission — Registry of supporting artefacts to implement EN16931](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931) — official DIGITAL registry: EN 16931 validation artefacts (UBL 2.1 + CII 16b, latest **1.3.16**, published 16/04/26), EAS and VATEX code lists, CIUS/Extensions registry, and the bi-annual release schedule.
+- [European Commission — Registry of supporting artefacts to implement EN16931](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931) — official DIGITAL registry: EN 16931 validation artefacts (UBL 2.1 + CII 16b, latest **1.3.17**, published 12/10/26, effective 15/11/26), EAS and VATEX code lists, CIUS/Extensions registry, and the bi-annual release schedule.
 
 - [FeRD — Download ZUGFeRD](https://www.ferd-net.de/download-zugferd) — « Infopaket für das E-Rechnungsformat ZUGFeRD 2.5.2 vom 04.08.2026 » ; Direktdownload 27.94 MB (DE) / 28.98 MB (EN). **ZIP not downloaded**.
 
@@ -68,7 +68,7 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [InvoiceIn](https://invoicein.peculiar.systems/) — tagline « Every e-invoice you receive, as one JSON. » ; accepts « XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3, FatturaPA, KSeF » ; [API reference](https://invoicein-api.peculiar.systems/docs). Pricing on page (« Beta pricing »): Free `100 invoices` (30 days) ; Starter `29 eur / 250 invoices` ; Growth `99 eur / 1,000` ; Scale `399 eur / 5,000`. Claims: theirs, not restated.
 
-- [ITB — Commission eInvoice Validator](https://www.itb.ec.europa.eu/invoice/upload) — H1 « eInvoice Validator » ; types `cii` / `ubl` / `credit` labelled « release 1.3.16 ». REST `POST https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate` (HEAD 405). Not a GitHub repo.
+- [ITB — Commission eInvoice Validator](https://www.itb.ec.europa.eu/invoice/upload) — H1 « eInvoice Validator » ; types `cii` / `ubl` / `credit` labelled « release 1.3.17 ». REST `POST https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate` (HEAD 405). Not a GitHub repo.
 
 - [Kontevia — E-Rechnung prüfen](https://kontevia.de/tools/e-rechnung-pruefen) — H1 « E-Rechnung prüfen: XRechnung und ZUGFeRD Validator online, ohne Upload » ; page states « Kostenlos, ohne Anmeldung » and « Die Prüfung läuft in Ihrem Browser, die Datei wird nicht hochgeladen » ; « Der Prüfer ist keine Schematron-Validierung ». Price [non-mesure].
 
@@ -108,7 +108,7 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 Only publicly licensed, still-living example sets. FNFE ZIP (email gate) and FeRD Infopaket are **not** redistributable corpora here.
 
-- [ConnectingEurope — EN 16931 v1.3.16 examples](https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.16) — release « EN16931 Validation artefacts v1.3.16 » ; body: examples in folder `"examples"` ; EUPL 1.2 ; assets `en16931-cii-1.3.16.zip`, `en16931-ubl-1.3.16.zip`.
+- [ConnectingEurope — EN 16931 v1.3.17 examples](https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.17) — release « EN16931 Validation artefacts v1.3.17 » ; body: examples in folder `"examples"` ; EUPL 1.2 ; assets `en16931-cii-1.3.17.zip`, `en16931-ubl-1.3.17.zip`.
 
 - [facturxapi/en16931-oracles](https://github.com/facturxapi/en16931-oracles) — API description « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » API `NOASSERTION`. **`stargazers_count` = 4**. Release `v1.1.0` « v1.1.0 — BR-FR Flux2 oracles (France_RFE v1.4.0.x) » (2026-08-21). *(list maintainer's project)*
 

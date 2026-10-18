@@ -11,7 +11,7 @@ Seuil d’alerte : archived, 404, README d’une ligne, last push > 18 mois.
 
 Relevé précédent : 18 août 2026 (voir « Deltas vs 18 août 2026 »).
 
-Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`) : lignes touchées par la publication EN16931 1.3.17 seulement (voir « Deltas vs 11 oct. 2026 »).
+Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `2026-10-18T14:04:35Z`) : lignes touchées par la publication EN16931 1.3.17 seulement (voir « Deltas vs 11 oct. 2026 »).
 
 ---
 
@@ -75,7 +75,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`) : lignes touchées par l
 | https://github.com/invoicenavigator/validate-invoice | 200 | 11 oct. 2026 | MIT | oui — push 2026-03-02 ; stars 0 | **pas de release** (`releases/latest` 404) |
 | https://github.com/attestwire/validate-einvoice-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-04 ; stars 0 ; release `v1.10.0` (2026-10-04) | description API « Runs locally by default » ; release « v1.10.0: engine 0.14.1 » |
 | https://github.com/marketplace/actions/validate-e-invoice-en-16931 | 200 | 11 oct. 2026 | MIT (repo) | oui | fiche Marketplace attestwire |
-| https://github.com/marketplace/actions/validate-en16931-e-invoice | 200 | 11 oct. 2026 | EUPL 1.2 (repo ; API `NOASSERTION`) | oui | fiche Marketplace `facturxapi/validate-einvoice` ; latest release affichée `v1.1.2` (`v1.1.0` plus tôt le 11/10) |
+| https://github.com/marketplace/actions/validate-en16931-e-invoice | 200 | 18 oct. 2026 | EUPL 1.2 (repo ; API `NOASSERTION`) | oui | fiche Marketplace `facturxapi/validate-einvoice` ; latest release affichée `v1.2.0` (`v1.1.2` au 11/10) |
 | https://github.com/attestwire/en16931 | 200 | 11 oct. 2026 | MIT (API `license.spdx_id`) | oui — push 2026-10-04 ; release `v0.14.1` (`published_at` 2026-10-06) ; stars 1 ; not archived | notes de release « Released 2026-10-04 » |
 | https://github.com/marketplace?type=actions&query=factur-x | 200 | 11 oct. 2026 | — | — | **« 5 results »** : `validate-en16931-e-invoice`, `validate-e-invoice-en-16931`, `prufix`, `beliq-e-invoice-validate`, `invowerk-api` (avant la release `v1.1.2` le même jour : « 4 results », sans `validate-en16931-e-invoice`) |
 | https://github.com/marketplace?type=actions&query=zugferd | 200 | 11 oct. 2026 | — | — | **« 3 results »** : `validate-en16931-e-invoice`, `beliq-e-invoice-validate`, `invowerk-api` (avant la release `v1.1.2` le même jour : « 2 results ») |
@@ -92,12 +92,12 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`) : lignes touchées par l
 | https://github.com/itplr-kosit/xrechnung-testsuite/releases/tag/v2026-01-31 | 200 | 11 oct. 2026 | Apache-2.0 | oui (n’est plus `releases/latest`) |  |
 | https://projekte.kosit.org/xrechnung/xrechnung-testsuite | 200 | 11 oct. 2026 | Apache (page GitLab) | oui | H1 `xrechnung-testsuite` |
 | https://raw.githubusercontent.com/itplr-kosit/xrechnung-testsuite/master/LICENSE | 200 | 11 oct. 2026 | Apache-2.0 | — |  |
-| https://github.com/facturxapi/validate-einvoice | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-11T20:32:33Z ; dernier commit `main` 2026-10-11 ; stars **4** | description API « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » ; `releases/latest` = `v1.1.2` ; tags `v1` et `v1.1.2` → `a805a904…` (`v1.1.1` → `b1aec930…`) |
-| https://api.github.com/repos/facturxapi/validate-einvoice | 200 | 11 oct. 2026 | `NOASSERTION` | oui | idem |
-| https://api.github.com/repos/facturxapi/validate-einvoice/git/refs/tags/v1 | 200 | 11 oct. 2026 | — | oui | object.sha `a805a904f9fa1a7d51db5a4160e863748cc3733d` (`b1aec930…` plus tôt le 11/10, `8457406…` au 18/08) |
+| https://github.com/facturxapi/validate-einvoice | 200 | 18 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-18T13:55:16Z ; dernier commit `main` 2026-10-18 (`172c8b82`) ; stars **4** | description API « GitHub Action that runs the official ConnectingEurope EN16931 XSLT artefacts (CII/UBL): 1.3.16 by default, 1.3.17 opt-in. » ; `releases/latest` = `v1.2.0` (2026-10-18T13:55:32Z) ; tags `v1` et `v1.2.0` → `172c8b82…` (`v1.1.2` → `a805a904…`) |
+| https://api.github.com/repos/facturxapi/validate-einvoice | 200 | 18 oct. 2026 | `NOASSERTION` | oui | idem |
+| https://api.github.com/repos/facturxapi/validate-einvoice/git/refs/tags/v1 | 200 | 18 oct. 2026 | — | oui | object.sha `172c8b824316f94459741e4cb9f1f348eb052a02` (`a805a904…` au 11/10, `8457406…` au 18/08) |
 | https://github.com/facturxapi/validate-einvoice/actions/runs/32089460503 | 200 | 11 oct. 2026 | — | — | page run publique (non citée dans le README) |
-| https://github.com/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-11T20:29:33Z ; stars **4** ; release `v1.1.0` (2026-08-21) | description API « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » ; workflow upstream-drift : dernier run planifié 2026-10-05 `success` |
-| https://api.github.com/repos/facturxapi/en16931-oracles | 200 | 11 oct. 2026 | `NOASSERTION` | oui | idem |
+| https://github.com/facturxapi/en16931-oracles | 200 | 18 oct. 2026 | API `NOASSERTION` | oui — push 2026-10-18T14:03:57Z ; dernier commit `main` 2026-10-18 (`75541afc`) ; stars **4** ; release `v1.1.0` (2026-08-21) | description API « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.17 fixtures, SVRL receipts, and mutants. » ; workflow upstream-drift : run manuel 2026-10-18 sur `main` `success` (« No drift », pin `validation-1.3.17`) |
+| https://api.github.com/repos/facturxapi/en16931-oracles | 200 | 18 oct. 2026 | `NOASSERTION` | oui | idem |
 | https://github.com/facturxapi/en16931-oracles/actions/runs/32081271235 | 200 | 11 oct. 2026 | — | — | page run publique (non citée dans le README) |
 | https://www.itb.ec.europa.eu/invoice/upload | 200 | 18 oct. 2026 | n/a (Commission) | oui | H1 « eInvoice Validator » ; options `cii`/`ubl`/`credit` « release 1.3.17 » |
 | https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate | HEAD **405** / GET **405** | 11 oct. 2026 | n/a | endpoint POST (HEAD/GET refusés) | attendu pour une API REST ; non un 404 |
@@ -138,6 +138,8 @@ Relevé partiel du 18 oct. 2026, limité à la publication EN16931 1.3.17.
 | Registre EC EN16931 | dernière version 1.3.16 (16/04/26) | **1.3.17**, « Published: 12/10/26 », date d'effet 15/11/26 |
 | ITB eInvoice Validator | « release 1.3.16 » | « release 1.3.17 » |
 | ConnectingEurope examples (Corpora) | release `validation-1.3.16` | release **`validation-1.3.17`** |
+| facturxapi/validate-einvoice | description « … 1.3.16 XSLT … » ; release `v1.1.2` ; `v1` → `a805a904` | description « … 1.3.16 by default, 1.3.17 opt-in » ; release **`v1.2.0`** ; `v1` → `172c8b82` |
+| facturxapi/en16931-oracles | description « … 1.3.16 fixtures … » | description « … 1.3.17 fixtures … » ; release inchangée `v1.1.0` |
 
 ## Deltas vs 18 août 2026
 

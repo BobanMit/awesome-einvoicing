@@ -103,6 +103,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate | HEAD **405** / GET **405** | 11 oct. 2026 | n/a | endpoint POST (HEAD/GET refusés) | attendu pour une API REST ; non un 404 |
 | https://einvoicevalidator.eu/en | 200 | 14 oct. 2026 | n/a (service web ; dépôt privé) | oui | title « E-Invoice Validator: check XRechnung & ZUGFeRD free » ; H1 « E-invoice validator. Free, no sign-up. » |
 | https://kontevia.de/tools/e-rechnung-pruefen | 200 | 12 oct. 2026 | n/a | oui | title « E-Rechnung prüfen: XRechnung, ZUGFeRD Validator \| Kontevia » ; « Kostenlos, ohne Anmeldung » |
+| https://einvoicecheck.com/en/validator | 200 (HEAD et GET) | 16 oct. 2026 | n/a (outil hébergé commercial, maker-affiliated : maintenu par le soumetteur) | oui | title « XRechnung Validator for reproducible technical checks » ; H1 « Validate an XRechnung against an identified ruleset » ; scope page : « UBL 2.1 or CII D16B » ; Terms EN : « The service is free technical validation » ; « free validation phase with no account, no checkout, no payment and no subscription » |
 | https://github.com/reviewdog/action-eslint | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-08 ; stars 259 | **exclu README** |
 | https://github.com/aquasecurity/trivy-action | 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-10-07 ; stars 1436 | **exclu README** |
 | https://github.com/golangci/golangci-lint-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-01 ; stars 1450 | **exclu README** |

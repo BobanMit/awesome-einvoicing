@@ -103,7 +103,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate | HEAD **405** / GET **405** | 11 oct. 2026 | n/a | endpoint POST (HEAD/GET refusés) | attendu pour une API REST ; non un 404 |
 | https://einvoicevalidator.eu/en | 200 | 14 oct. 2026 | n/a (service web ; dépôt privé) | oui | title « E-Invoice Validator: check XRechnung & ZUGFeRD free » ; H1 « E-invoice validator. Free, no sign-up. » |
 | https://kontevia.de/tools/e-rechnung-pruefen | 200 | 12 oct. 2026 | n/a | oui | title « E-Rechnung prüfen: XRechnung, ZUGFeRD Validator \| Kontevia » ; « Kostenlos, ohne Anmeldung » |
-| https://einvoicecheck.com/en/validator | 200 (HEAD et GET) | 16 oct. 2026 | n/a (outil hébergé commercial, maker-affiliated : maintenu par le soumetteur) | oui | title « XRechnung Validator for reproducible technical checks » ; H1 « Validate an XRechnung against an identified ruleset » ; scope page : « UBL 2.1 or CII D16B » ; Terms EN : « The service is free technical validation » ; « free validation phase with no account, no checkout, no payment and no subscription » |
+| https://einvoicecheck.com/en/validator | 200 (HEAD et GET) | 18 oct. 2026 | n/a (outil hébergé commercial ; entrée proposée par son mainteneur, #15) | oui | title « XRechnung Validator for reproducible technical checks » ; H1 « Validate an XRechnung against an identified ruleset » ; `/en` 200, FAQ : « Only the XRechnung XML configurations explicitly listed in the interface for UBL 2.1 or CII D16B. This page does not promise ZUGFeRD PDF or end-to-end Peppol validation. » ; `/en/terms` 200 : « The service is free technical validation » ; « free validation phase with no account, no checkout, no payment and no subscription » ; aucun prix dans le HTML |
 | https://github.com/reviewdog/action-eslint | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-08 ; stars 259 | **exclu README** |
 | https://github.com/aquasecurity/trivy-action | 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-10-07 ; stars 1436 | **exclu README** |
 | https://github.com/golangci/golangci-lint-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-01 ; stars 1450 | **exclu README** |
@@ -131,7 +131,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 
 ## Deltas vs 11 oct. 2026
 
-Relevé partiel du 18 oct. 2026, limité à la publication EN16931 1.3.17.
+Relevé partiel du 18 oct. 2026, limité à la publication EN16931 1.3.17 et à l'entrée E-Invoice Check (#15).
 
 | Entrée | 11/10 | 18/10 |
 |---|---|---|
@@ -141,6 +141,7 @@ Relevé partiel du 18 oct. 2026, limité à la publication EN16931 1.3.17.
 | ConnectingEurope examples (Corpora) | release `validation-1.3.16` | release **`validation-1.3.17`** |
 | facturxapi/validate-einvoice | description « … 1.3.16 XSLT … » ; release `v1.1.2` ; `v1` → `a805a904` | description « … 1.3.16 by default, 1.3.17 opt-in » ; release **`v1.2.0`** ; `v1` → `172c8b82` |
 | facturxapi/en16931-oracles | description « … 1.3.16 fixtures … » | description « … 1.3.17 fixtures … » ; release inchangée `v1.1.0` |
+| E-Invoice Check (Validators) | absent | ajouté (#15, proposé par son mainteneur) ; remesuré 2026-10-18T21:34:11Z : title, H1, FAQ `/en` et Terms cités, prix `[non-mesure]` |
 
 ## Deltas vs 18 août 2026
 

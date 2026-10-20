@@ -110,15 +110,9 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 - [phax/en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) — API description « Converter for EN 16931 invoices from UBL 2.1 to CII D16B » ; README: EN 16931:2017 UBL 2.1 → CII D16B, EN 16931:2026 UBL 2.5 → CII D25A. Apache-2.0. **`stargazers_count` = 10**. Last push 2026-10-08 ; release `v3.0.1` (2026-10-07).
 
-- [phax/erechnung.gv.at-webservice-client](https://github.com/phax/erechnung.gv.at-webservice-client) — API description « Utility classes and projects for the use with eRechnung.gv.at - the national Austrian Invoicing solution » ; README: Webservice clients for 1.2 and 2.0, and « this service is **NOT** affiliate with BRZ/Bundesrechenzentrum ». Apache-2.0. **`stargazers_count` = 3**. Last push 2026-10-09 ; release `v5.0.1` (2025-11-17).
-
 - [phax/kaltblut](https://github.com/phax/kaltblut) — API description « Java library helping you to handle ZUGFeRD invoices » ; README: detects the flavour of hybrid PDFs, extracts the embedded XML and validates carrier-side rules incl. PDF/A-3 via veraPDF ; « XML-side business rules […] are out of scope ». Apache-2.0. **`stargazers_count` = 6**. Last push 2026-10-18 ; release `v0.9.5` (2026-08-09).
 
 - [phax/ph-cii](https://github.com/phax/ph-cii) — API description « Java Wrapper for the UN/CEFACT Cross Industry Invoice » ; README: D16A.1 and D16B for EN 16931:2017, D22B for ZUGFeRD 2.3+, D25A for EN 16931:2026. Apache-2.0. **`stargazers_count` = 15**. Last push 2026-10-08 ; release `v4.1.3` (2026-09-22).
-
-- [phax/ph-ebinterface](https://github.com/phax/ph-ebinterface) — API description « Java library for reading and writing ebInterface documents » ; README: ebInterface 3.0 to 6.1. Apache-2.0. **`stargazers_count` = 2**. Last push 2026-10-18 ; release `v8.1.1` (2026-10-07).
-
-- [phax/ph-fatturapa](https://github.com/phax/ph-fatturapa) — API description « Java library to easily read and write XSD compliant fatturaPA 1.2 and 1.2.1 invoices » ; README lists versions 1.2 to 1.2.3. Apache-2.0. **`stargazers_count` = 12**. Last push 2026-10-09 ; release `v3.1.1` (2026-09-30).
 
 - [phax/ph-redact](https://github.com/phax/ph-redact) — API description « Simple eInvoice Anonymizer » ; README: XSLT-based XML anonymiser for UBL and CII (EN 16931:2017 UBL 2.1 / CII D16B, EN 16931:2026 UBL 2.5 / CII D25A) that keeps structure, monetary and tax values. Apache-2.0. **`stargazers_count` = 3**. Last push 2026-10-09 ; release `v1.1.0` (2026-09-08).
 

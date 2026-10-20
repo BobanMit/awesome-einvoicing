@@ -24,7 +24,7 @@ HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [
 
 ## Specs
 
-- [ConnectingEurope/eInvoicing-EN16931](https://github.com/ConnectingEurope/eInvoicing-EN16931) — official EN 16931 Schematron artefacts (UBL + CII) ; latest UBL & CII **v1.3.16** (2026-04-10) ; README: « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » File `LICENSE.txt` EUPL 1.2 (API `license.spdx_id` = `NOASSERTION`).
+- [ConnectingEurope/eInvoicing-EN16931](https://github.com/ConnectingEurope/eInvoicing-EN16931) — official EN 16931 Schematron artefacts (UBL + CII) ; latest UBL & CII **v1.3.17** (2026-10-12) ; README: « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » File `LICENSE.txt` EUPL 1.2 (API `license.spdx_id` = `NOASSERTION`).
 
 - [FeRD — ZUGFeRD / Factur-X](https://www.ferd-net.de/) — Forum elektronische Rechnung Deutschland ; home: « ZUGFeRD 2.5.2 veröffentlicht » ; « Eschborn | Paris, 04.08.2026 ».
 
@@ -40,7 +40,7 @@ HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [
 
 - [DGFiP — reform FAQ](https://www.impots.gouv.fr/professionnel/questions/dans-le-cadre-de-la-reforme-de-la-facturation-electronique-comment-devrais) — « À compter du 1er septembre 2026 , toutes les entreprises assujetties à la TVA […] devront être en capacité de recevoir des factures électroniques ». « septembre 2027 » **absent** from the HTML this run.
 
-- [European Commission — Registry of supporting artefacts to implement EN16931](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931) — official DIGITAL registry: EN 16931 validation artefacts (UBL 2.1 + CII 16b, latest **1.3.16**, published 16/04/26), EAS and VATEX code lists, CIUS/Extensions registry, and the bi-annual release schedule.
+- [European Commission — Registry of supporting artefacts to implement EN16931](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931) — official DIGITAL registry: EN 16931 validation artefacts (UBL 2.1 + CII 16b, latest **1.3.17**, published 12/10/26, effective 15/11/26), EAS and VATEX code lists, CIUS/Extensions registry, and the bi-annual release schedule.
 
 - [FeRD — Download ZUGFeRD](https://www.ferd-net.de/download-zugferd) — « Infopaket für das E-Rechnungsformat ZUGFeRD 2.5.2 vom 04.08.2026 » ; Direktdownload 27.94 MB (DE) / 28.98 MB (EN). **ZIP not downloaded**.
 
@@ -54,9 +54,13 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [B2Brouter — Factur-X validator](https://www.b2brouter.net/fr/factur-x-validator/) — title « Factur-X validator : en ligne, conforme et gratuit » (their title) ; platform [pricing](https://www.b2brouter.net/fr/tarifs/) HTML: Basic `0 eur / à vie` ; Professional `110 eur / an + TVA` ; Business `300 eur / an + TVA`.
 
+- [E-Invoice Check](https://einvoicecheck.com/en/validator) — H1 « Validate an XRechnung against an identified ruleset » ; title « XRechnung Validator for reproducible technical checks ». Home [FAQ](https://einvoicecheck.com/en): « Only the XRechnung XML configurations explicitly listed in the interface for UBL 2.1 or CII D16B. This page does not promise ZUGFeRD PDF or end-to-end Peppol validation. » [Terms](https://einvoicecheck.com/en/terms): « The service is free technical validation » ; « free validation phase with no account, no checkout, no payment and no subscription ». Price [non-mesure].
+
 - [e-invoice-be/peppol-cli](https://github.com/e-invoice-be/peppol-cli) — Go CLI (binary `peppol`) ; API description « CLI for the e-invoice.be Peppol API ». MIT. **`stargazers_count` = 3**. Release `v0.0.7` (2026-10-14). `internal/cli/validate.go`: `validate ubl` and `validate json` « against Peppol BIS Billing 3.0 », sent to `https://api.e-invoice.be` with an API key (not run locally). [Landing page](https://e-invoice.be/peppol-cli): « Requires an e-invoice.be account. » ; « You only pay for the invoices you send or receive, from €0.18. »
 
 - [E-Rechnung API](https://e-rechnung-api.fly.dev/) — H1 « ZUGFeRD & Factur-X API » ; title « ZUGFeRD & Factur-X API | E-Rechnungen leicht gemacht ». Validator [`/validator`](https://e-rechnung-api.fly.dev/validator): title « Kostenloser ZUGFeRD & XRechnung Validator (EN 16931) » ; drag-and-drop validation for PDF/A-3 and XML without registration. Pricing: Test `0€`, Prepaid `10€ / 100 Dok.`, Starter `29€ / Monat`.
+
+- [einvoicevalidator.eu](https://einvoicevalidator.eu/en) — H1 « E-invoice validator. Free, no sign-up. » ; title « E-Invoice Validator: check XRechnung & ZUGFeRD free » ; page states « Check XRechnung, ZUGFeRD/Factur-X, Peppol BIS 3.0 and UBL 2.1 against EN 16931 ». UI in 8 languages. Price [non-mesure].
 
 - [FactureValide](https://facturevalide.fr/) — H1 « Votre facture valide en 2 minutes. Point. » ; « Gratuit pendant le lancement » ; « Sans limite · Sans carte bancaire ». Validator [`/valider-facture-electronique.html`](https://facturevalide.fr/valider-facture-electronique.html): « 10 vérifications/jour » ; « 31 points de contrôle ». `/tarifs` and `/tarifs.html` = **404**.
 
@@ -68,7 +72,7 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [InvoiceIn](https://invoicein.peculiar.systems/) — tagline « Every e-invoice you receive, as one JSON. » ; accepts « XRechnung, ZUGFeRD, Factur-X, Peppol BIS 3, FatturaPA, KSeF » ; [API reference](https://invoicein-api.peculiar.systems/docs). Pricing on page (« Beta pricing »): Free `100 invoices` (30 days) ; Starter `29 eur / 250 invoices` ; Growth `99 eur / 1,000` ; Scale `399 eur / 5,000`. Claims: theirs, not restated.
 
-- [ITB — Commission eInvoice Validator](https://www.itb.ec.europa.eu/invoice/upload) — H1 « eInvoice Validator » ; types `cii` / `ubl` / `credit` labelled « release 1.3.16 ». REST `POST https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate` (HEAD 405). Not a GitHub repo.
+- [ITB — Commission eInvoice Validator](https://www.itb.ec.europa.eu/invoice/upload) — H1 « eInvoice Validator » ; types `cii` / `ubl` / `credit` labelled « release 1.3.17 ». REST `POST https://www.itb.ec.europa.eu/vitb/rest/invoice/api/validate` (HEAD 405). Not a GitHub repo.
 
 - [Kontevia — E-Rechnung prüfen](https://kontevia.de/tools/e-rechnung-pruefen) — H1 « E-Rechnung prüfen: XRechnung und ZUGFeRD Validator online, ohne Upload » ; page states « Kostenlos, ohne Anmeldung » and « Die Prüfung läuft in Ihrem Browser, die Datei wird nicht hochgeladen » ; « Der Prüfer ist keine Schematron-Validierung ». Price [non-mesure].
 
@@ -84,7 +88,7 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 - [eleata/validate-einvoice-action](https://github.com/eleata/validate-einvoice-action) — formerly `hernaninverso/validate-einvoice-action` (old URL redirects) ; API description « Validate EU e-invoices (Peppol BIS, EN 16931, XRechnung, Factur-X, UBL, CII) in CI — backed by eleata.io, with plain-English fix hints per error. » Composite Action ; `action.yml` name `Validate EU e-Invoice` ; `format` includes `factur-x` ; default `api-base` `https://api.eleata.io`. Apache-2.0. **`stargazers_count` = 0**. Last push 2026-05-25. Claims: theirs, not restated.
 
-- [facturxapi/validate-einvoice](https://github.com/facturxapi/validate-einvoice) — API description « GitHub Action that runs the official ConnectingEurope EN16931 1.3.16 XSLT artefacts (CII/UBL). » EUPL 1.2 (API `NOASSERTION`). **`stargazers_count` = 4**. Release `v1.1.2` (2026-10-11). *(list maintainer's project)*
+- [facturxapi/validate-einvoice](https://github.com/facturxapi/validate-einvoice) — API description « GitHub Action that runs the official ConnectingEurope EN16931 XSLT artefacts (CII/UBL): 1.3.16 by default, 1.3.17 opt-in. » EUPL 1.2 (API `NOASSERTION`). **`stargazers_count` = 4**. Release `v1.2.0` (2026-10-18). *(list maintainer's project)*
 
 - [invoicenavigator/validate-invoice](https://github.com/invoicenavigator/validate-invoice) — Action `node20` ; API description « GitHub Action to validate EU e-invoices against EN 16931, Peppol, XRechnung, and ZUGFeRD ». MIT. **`stargazers_count` = 0**. Last push 2026-03-02. **No release**. **Not a Marketplace card.**
 
@@ -108,9 +112,9 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 Only publicly licensed, still-living example sets. FNFE ZIP (email gate) and FeRD Infopaket are **not** redistributable corpora here.
 
-- [ConnectingEurope — EN 16931 v1.3.16 examples](https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.16) — release « EN16931 Validation artefacts v1.3.16 » ; body: examples in folder `"examples"` ; EUPL 1.2 ; assets `en16931-cii-1.3.16.zip`, `en16931-ubl-1.3.16.zip`.
+- [ConnectingEurope — EN 16931 v1.3.17 examples](https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.17) — release « EN16931 Validation artefacts v1.3.17 » ; body: examples in folder `"examples"` ; EUPL 1.2 ; assets `en16931-cii-1.3.17.zip`, `en16931-ubl-1.3.17.zip`.
 
-- [facturxapi/en16931-oracles](https://github.com/facturxapi/en16931-oracles) — API description « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.16 fixtures, SVRL receipts, and mutants. » API `NOASSERTION`. **`stargazers_count` = 4**. Release `v1.1.0` « v1.1.0 — BR-FR Flux2 oracles (France_RFE v1.4.0.x) » (2026-08-21). *(list maintainer's project)*
+- [facturxapi/en16931-oracles](https://github.com/facturxapi/en16931-oracles) — API description « Reproducible EN16931 validation oracles — ConnectingEurope 1.3.17 fixtures, SVRL receipts, and mutants. » API `NOASSERTION`. **`stargazers_count` = 4**. Release `v1.1.0` « v1.1.0 — BR-FR Flux2 oracles (France_RFE v1.4.0.x) » (2026-08-21). *(list maintainer's project)*
 
 - [itplr-kosit/xrechnung-testsuite](https://github.com/itplr-kosit/xrechnung-testsuite) — GitHub mirror of KoSIT ([GitLab](https://projekte.kosit.org/xrechnung/xrechnung-testsuite) HTTP 200). Apache-2.0. Last push 2026-09-08. Release `v2026-08-31` « Testsuite release in version 2026-08-31 compatible with XRechnung 3.0 » (2026-09-02): asset `xrechnung-3.0.2-testsuite-2026-08-31.zip`.
 

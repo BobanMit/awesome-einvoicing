@@ -118,6 +118,8 @@ Only publicly licensed, still-living example sets. FNFE ZIP (email gate) and FeR
 
 - [itplr-kosit/xrechnung-testsuite](https://github.com/itplr-kosit/xrechnung-testsuite) — GitHub mirror of KoSIT ([GitLab](https://projekte.kosit.org/xrechnung/xrechnung-testsuite) HTTP 200). Apache-2.0. Last push 2026-09-08. Release `v2026-08-31` « Testsuite release in version 2026-08-31 compatible with XRechnung 3.0 » (2026-09-02): asset `xrechnung-3.0.2-testsuite-2026-08-31.zip`.
 
+- [kobima6813/einvoice-conformance-matrix](https://github.com/kobima6813/einvoice-conformance-matrix) — API description « Reproducible cross-validator conformance matrix for EN 16931 e-invoice generators (KoSIT/XRechnung, CEN, Peppol BIS, due-vs-charged), with a GitHub Action. » Apache-2.0. **`stargazers_count` = 0**. Last push 2026-10-20 ; **No release**.
+
 ## Related lists
 
 - [causa-prima-ai/awesome-invoicing](https://github.com/causa-prima-ai/awesome-invoicing) — « curated list of invoicing and e-invoicing tools […] EN 16931, XRechnung, ZUGFeRD, Peppol BIS, Factur-X ». File `LICENSE` = CC0 1.0 (API `NOASSERTION`). Last push 2026-07-07 ; **`stargazers_count` = 1**.

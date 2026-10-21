@@ -111,7 +111,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://github.com/aquasecurity/trivy-action | 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-10-07 ; stars 1436 | **exclu README** |
 | https://github.com/golangci/golangci-lint-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-01 ; stars 1450 | **exclu README** |
 | https://github.com/oxsecurity/megalinter | 200 | 11 oct. 2026 | AGPL-3.0 | oui — push 2026-10-11 ; stars 2611 | **exclu README** |
-| https://apify.com/rigel/facturx-toolkit | 200 | 21 oct. 2026 | propriétaire (service hébergé, pas de dépôt public) | oui — build `0.1.7` (2026-10-17) | H1 « Factur-X Validator & Generator: ZUGFeRD, EN 16931, FR 2026 » ; « Not an approved platform (PA). » |
+| https://apify.com/rigel/facturx-toolkit | 200 | 21 oct. 2026 | propriétaire (service hébergé, pas de dépôt public) | oui — build `0.1.7` (2026-10-17) | H1 « Factur-X Validator & Generator: ZUGFeRD, EN 16931, FR 2026 » ; « Not an approved platform (PA). » ; « Pay per event, in USD. » ; `document-validated` « $0.015 » ; build `0.1.7` lu via l’API publique Apify (`taggedBuilds.latest`) ; entrée proposée par son auteur (#21) |
 
 ---
 

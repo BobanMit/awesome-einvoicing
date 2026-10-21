@@ -78,6 +78,12 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [Mustangproject — CLI validate](https://www.mustangproject.org/commandline/) — home: « Mustangproject 2.26.0 was released on 25.08.2026 » ; « Support for ZUGFeRD 2.5.2 (=Factur-X 1.09.2, #1216) » (2.25.0 note). CLI page: Validate + `Mustang-CLI-2.26.0.jar`. CLI **not executed** this run (`[non-mesure]` runtime).
 
+- [phax/phive](https://github.com/phax/phive) — Java validation engine ; API description « Generic business document validation engine » ; README: rules are in a separate repository. Apache-2.0. **`stargazers_count` = 77**. Last push 2026-10-08 ; release `v12.2.0` (2026-09-28).
+
+- [phax/phive-rules](https://github.com/phax/phive-rules) — preconfigured rule sets for phive ; API description « eInvoice Validation rules for the phive engine - for many different countries and jurisdictions » ; README lists modules `phive-rules-en16931`, `phive-rules-xrechnung` and `phive-rules-zugferd` (« German ZuGFERD and French Factur-X (XML part only) ») ; EN 16931 rules 1.3.17 noted as added. API `license.spdx_id` = `NOASSERTION` ; README: « The Java code in this project is licensed under the Apache 2 license. » ; validation artefacts may carry other licences. **`stargazers_count` = 52**. Last push 2026-10-17 ; release `v4.6.3` (2026-09-30).
+
+- [phax/phorm](https://github.com/phax/phorm) — API description « Phorm - Business Document Validation Service » ; README: « a simple, standalone validation service (Phorm) accessible by API only », based on phive and phive-rules. Apache-2.0. **`stargazers_count` = 32**. Last push 2026-10-18 ; release `v2.2.11` (2026-09-30).
+
 - [thelawin.dev](https://thelawin.dev/) — H1 « The E-Invoicing Engine » ; site labels « Factur-X 1.0.8 », « ZUGFeRD 2.4 » (FNFE/FeRD pack this day = 1.09.2 / 2.5.2). [Pricing](https://thelawin.dev/pricing): Sandbox `€0`, Starter `€9.50 /month`, Pro `€24.50 /month`, « Beta pricing: 50% off all paid plans ».
 
 ## GitHub Actions
@@ -101,6 +107,20 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 - [horstoeko/zugferd](https://github.com/horstoeko/zugferd) — PHP ZUGFeRD / XRechnung / Factur-X. MIT. **`stargazers_count` = 437**. Last push 2026-10-02 ; release `v1.0.132` (2026-08-30). README names [horstoeko/invoicesuite](https://github.com/horstoeko/invoicesuite) as « The official successor and primary focus of future development ».
 
 - [kadour-ia/Facturx-lire](https://github.com/kadour-ia/Facturx-lire) — API description « Lire en clair une facture électronique reçue (Factur-X, ZUGFeRD, CII, UBL) — gratuit, 100% local. Réforme 2026. » MIT. **`stargazers_count` = 0**. Last push 2026-10-11. **No GitHub release**. README: written and maintained by an autonomous AI agent (declared). Claims: theirs, not restated.
+
+- [phax/en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) — API description « Converter for EN16931 invoices from CII to UBL » ; README: EN 16931:2017 CII D16B → UBL 2.1, EN 16931:2026 CII D25A → UBL 2.5. Apache-2.0. **`stargazers_count` = 47**. Last push 2026-10-08 ; release `v4.0.2` (2026-10-07).
+
+- [phax/en16931-purifier](https://github.com/phax/en16931-purifier) — API description « Remove all extended elements from EN 16931 Invoices (CII and UBL) » ; README: input syntax is also output syntax, « this project is not a converter ». Apache-2.0. **`stargazers_count` = 1**. Last push 2026-10-08 ; release `v1.1.0` (2026-09-06).
+
+- [phax/en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) — API description « Converter for EN 16931 invoices from UBL 2.1 to CII D16B » ; README: EN 16931:2017 UBL 2.1 → CII D16B, EN 16931:2026 UBL 2.5 → CII D25A. Apache-2.0. **`stargazers_count` = 10**. Last push 2026-10-08 ; release `v3.0.1` (2026-10-07).
+
+- [phax/kaltblut](https://github.com/phax/kaltblut) — API description « Java library helping you to handle ZUGFeRD invoices » ; README: detects the flavour of hybrid PDFs, extracts the embedded XML and validates carrier-side rules incl. PDF/A-3 via veraPDF ; « XML-side business rules […] are out of scope ». Apache-2.0. **`stargazers_count` = 6**. Last push 2026-10-18 ; release `v0.9.5` (2026-08-09).
+
+- [phax/ph-cii](https://github.com/phax/ph-cii) — API description « Java Wrapper for the UN/CEFACT Cross Industry Invoice » ; README: D16A.1 and D16B for EN 16931:2017, D22B for ZUGFeRD 2.3+, D25A for EN 16931:2026. Apache-2.0. **`stargazers_count` = 15**. Last push 2026-10-08 ; release `v4.1.3` (2026-09-22).
+
+- [phax/ph-redact](https://github.com/phax/ph-redact) — API description « Simple eInvoice Anonymizer » ; README: XSLT-based XML anonymiser for UBL and CII (EN 16931:2017 UBL 2.1 / CII D16B, EN 16931:2026 UBL 2.5 / CII D25A) that keeps structure, monetary and tax values. Apache-2.0. **`stargazers_count` = 3**. Last push 2026-10-09 ; release `v1.1.0` (2026-09-08).
+
+- [phax/ph-ubl](https://github.com/phax/ph-ubl) — API description « Java library for reading and writing UBL 2.0, 2.1, 2.2, 2.3, 2.4 and 2.5 documents ». Apache-2.0. **`stargazers_count` = 141**. Last push 2026-10-17 ; release `v10.2.1` (2026-08-27).
 
 - [pretix/python-drafthorse](https://github.com/pretix/python-drafthorse) — API description « Pure-python ZUGFeRD implementation ». Apache-2.0. **`stargazers_count` = 179**. Last push 2026-06-02. **No GitHub release**.
 

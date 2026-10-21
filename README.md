@@ -86,6 +86,8 @@ Tools that present themselves as a validator, converter or API. **Not a ranking.
 
 - [thelawin.dev](https://thelawin.dev/) — H1 « The E-Invoicing Engine » ; site labels « Factur-X 1.0.8 », « ZUGFeRD 2.4 » (FNFE/FeRD pack this day = 1.09.2 / 2.5.2). [Pricing](https://thelawin.dev/pricing): Sandbox `€0`, Starter `€9.50 /month`, Pro `€24.50 /month`, « Beta pricing: 50% off all paid plans ».
 
+- [xmlvalid](https://xmlvalid.com/schematron-validator) — H1 « Schematron validator for e-invoices » ; « EN 16931 1.3.17 […] on the EN 16931 profiles », « Peppol, XRechnung and the French profiles run 1.3.16 » ; « Nothing is uploaded ». [Pricing](https://xmlvalid.com/pricing): Free `$0 forever`, Pro `$290 per year`.
+
 ## GitHub Actions
 
 Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`factur-x`](https://github.com/marketplace?type=actions&query=factur-x) → « 5 results »: `validate-en16931-e-invoice`, `validate-e-invoice-en-16931`, `prufix`, `beliq-e-invoice-validate`, `invowerk-api`. [`zugferd`](https://github.com/marketplace?type=actions&query=zugferd) → « 3 results »: `validate-en16931-e-invoice`, `beliq-e-invoice-validate`, `invowerk-api`. [`en16931`](https://github.com/marketplace?type=actions&query=en16931) → « 1 result »: `validate-en16931-e-invoice`. Search results are listed here, not added as entries.

@@ -48,6 +48,8 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://thelawin.dev/ | 200 | 11 oct. 2026 | n/a | oui | H1 « The E-Invoicing Engine » ; libellés Factur-X 1.0.8 / ZUGFeRD 2.4 |
 | https://thelawin.dev/pricing | 200 | 11 oct. 2026 | n/a | oui | Sandbox €0 ; Starter €9.50/month ; Pro €24.50/month ; « Beta pricing: 50% off » |
 | https://thelawin.dev/fr/factur-x-validator | 200 | 11 oct. 2026 | n/a | oui | H1 « Factur-X Validator » |
+| https://xmlvalid.com/schematron-validator | 200 | 21 oct. 2026 | n/a | oui | H1 « Schematron validator for e-invoices » ; « EN 16931 1.3.17 » ; « Nothing is uploaded » ; entrée proposée par son auteur (#20) |
+| https://xmlvalid.com/pricing | 200 | 21 oct. 2026 | n/a | oui | Free « $0 forever » ; Pro « $290 per year » |
 | https://www.b2brouter.net/fr/factur-x-validator/ | 200 | 11 oct. 2026 | n/a | oui | title « […] conforme et gratuit » (leur title) |
 | https://www.b2brouter.net/fr/tarifs/ | 200 | 11 oct. 2026 | n/a | oui | Basic 0 eur / à vie ; Professional 110 eur / an + TVA ; Business 300 eur / an + TVA |
 | https://e-rechnung-api.fly.dev/ | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | H1 « ZUGFeRD & Factur-X API für Entwickler » ; Test 0€, Prepaid 10€ / 100 Dok. |

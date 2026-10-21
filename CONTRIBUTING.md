@@ -9,7 +9,7 @@ This is a sourced list, not a ranking and not an endorsement.
 1. One entry per PR.
 2. The URL must return HTTP 200 on a GET (or a documented method exception: HEAD 405 + GET 200, POST-only REST).
 3. Use the same format and roughly the same length as neighbouring entries: `[Name](url) — one factual sentence from the page or GitHub API this run.`
-4. Do not invent prices, star counts, volumes, or pass/fail rates. If the page does not show a euro amount, write `[non-mesure]`.
+4. Do not invent prices, star counts, volumes, or pass/fail rates. Quote prices in the currency shown; if the page shows none, write `[non-mesure]`.
 5. Quote the site’s own words for “valide / conforme / répare”. Do not repeat them as our verdict.
 6. Put the entry in the existing category, **alphabetically** by display name.
 7. Update [`CHECKS.md`](CHECKS.md) with the fetch date, HTTP status, license, and a short citation.

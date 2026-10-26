@@ -52,6 +52,8 @@ HTTP / licenses / liveness: [`CHECKS.md`](CHECKS.md). Redistribute vs pointer: [
 
 Tools that present themselves as a validator, converter or API. **Not a ranking.**
 
+- [Annehmbar](https://annehmbar.com/) — H1 « XRechnung und ZUGFeRD prüfen: Wird Ihre Rechnung angenommen? » ; « KoSIT-Konfiguration v2026-08-31 und ZUGFeRD 2.5.2 » ; REST `POST /api/validate` (CII/UBL XML, `X-Api-Key`) ; public update log [`/log`](https://annehmbar.com/log) + Atom feed. Page: « Regeländerungs-Alarm 0 € bis 31.12.2026, danach 19 € / Monat ». Submitted by the operator.
+
 - [B2Brouter — Factur-X validator](https://www.b2brouter.net/fr/factur-x-validator/) — title « Factur-X validator : en ligne, conforme et gratuit » (their title) ; platform [pricing](https://www.b2brouter.net/fr/tarifs/) HTML: Basic `0 eur / à vie` ; Professional `110 eur / an + TVA` ; Business `300 eur / an + TVA`.
 
 - [E-Invoice Check](https://einvoicecheck.com/en/validator) — H1 « Validate an XRechnung against an identified ruleset » ; title « XRechnung Validator for reproducible technical checks ». Home [FAQ](https://einvoicecheck.com/en): « Only the XRechnung XML configurations explicitly listed in the interface for UBL 2.1 or CII D16B. This page does not promise ZUGFeRD PDF or end-to-end Peppol validation. » [Terms](https://einvoicecheck.com/en/terms): « The service is free technical validation » ; « free validation phase with no account, no checkout, no payment and no subscription ». Price [non-mesure].

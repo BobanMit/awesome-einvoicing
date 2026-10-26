@@ -106,6 +106,8 @@ Marketplace search on 2026-10-11, results in the order GitHub displayed them: [`
 
 - [invoicenavigator/validate-invoice](https://github.com/invoicenavigator/validate-invoice) — Action `node20` ; API description « GitHub Action to validate EU e-invoices against EN 16931, Peppol, XRechnung, and ZUGFeRD ». MIT. **`stargazers_count` = 0**. Last push 2026-03-02. **No release**. **Not a Marketplace card.**
 
+- [wsystemdev/einvoice-validate-action](https://github.com/wsystemdev/einvoice-validate-action) — created 2026-10-26 ; API description « GitHub Action: validate UBL, CII and ZUGFeRD/Factur-X e-invoices against EN 16931 and XRechnung rules in CI » ; composite Action ; `action.yml` name `EU e-invoice validator (EN 16931, XRechnung)` ; default `api-url` `https://api.wsystem.dev` (files are sent to that API). MIT. **`stargazers_count` = 0**. Release `v1.0.0` (2026-10-26). **Not a Marketplace card.** Claims: theirs, not restated.
+
 ## Libraries
 
 - [akretion/factur-x](https://github.com/akretion/factur-x) — Python Factur-X / Order-X / UBL. API `license.spdx_id` = **`NOASSERTION`** ; `LICENSE.txt` = BSD 3-clause. **`stargazers_count` = 310**. Last push / release `7.5` (2026-10-09).

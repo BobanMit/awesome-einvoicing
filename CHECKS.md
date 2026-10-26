@@ -86,6 +86,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://github.com/phax/ph-ubl | 200 | 18 oct. 2026 | Apache-2.0 | oui — push 2026-10-17 ; stars 141 ; release `v10.2.1` (2026-08-27) | UBL 2.0 à 2.5 |
 | https://github.com/hernaninverso/validate-einvoice-action | 301 → 200 | 11 oct. 2026 | Apache-2.0 | oui — push 2026-05-25 ; stars 0 ; release `v1` (2026-05-25) | redirige vers `eleata/validate-einvoice-action` (API `full_name`) ; description API « backed by eleata.io » ; `action.yml` default `api-base` `https://api.eleata.io` |
 | https://github.com/invoicenavigator/validate-invoice | 200 | 11 oct. 2026 | MIT | oui — push 2026-03-02 ; stars 0 | **pas de release** (`releases/latest` 404) |
+| https://github.com/wsystemdev/einvoice-validate-action | 200 | 26 oct. 2026 | MIT | oui — créé et push 2026-10-26 ; stars 0 ; release `v1.0.0` (2026-10-26) | description API « validate UBL, CII and ZUGFeRD/Factur-X e-invoices against EN 16931 and XRechnung rules in CI » ; `action.yml` default `api-url` `https://api.wsystem.dev` ; entrée proposée par son éditeur |
 | https://github.com/attestwire/validate-einvoice-action | 200 | 11 oct. 2026 | MIT | oui — push 2026-10-04 ; stars 0 ; release `v1.10.0` (2026-10-04) | description API « Runs locally by default » ; release « v1.10.0: engine 0.14.1 » |
 | https://github.com/marketplace/actions/validate-e-invoice-en-16931 | 200 | 11 oct. 2026 | MIT (repo) | oui | fiche Marketplace attestwire |
 | https://github.com/marketplace/actions/validate-en16931-e-invoice | 200 | 18 oct. 2026 | EUPL 1.2 (repo ; API `NOASSERTION`) | oui | fiche Marketplace `facturxapi/validate-einvoice` ; latest release affichée `v1.2.0` (`v1.1.2` au 11/10) |
@@ -241,7 +242,7 @@ Aucun dépôt de la liste principale n’est `archived`.
 |---|---|
 | EUPL 1.2 (fichier ; API NOASSERTION) | ConnectingEurope/eInvoicing-EN16931 ; facturxapi/validate-einvoice (NOTICE) |
 | Apache-2.0 | France_RFE, mustangproject, phax/phive, phax/phorm, phax/kaltblut, phax/en16931-cii2ubl, phax/en16931-purifier, phax/en16931-ubl2cii, phax/ph-cii, phax/ph-redact, phax/ph-ubl, python-drafthorse, ZUGFeRD-csharp, xrechnung-testsuite, eleata (ex-hernaninverso), trivy-action |
-| MIT | horstoeko/zugferd, invoicenavigator, attestwire (Action + en16931), reviewdog/action-eslint, golangci-lint-action |
+| MIT | horstoeko/zugferd, invoicenavigator, wsystemdev/einvoice-validate-action, attestwire (Action + en16931), reviewdog/action-eslint, golangci-lint-action |
 | CC0-1.0 | sdras/awesome-actions, morganrcu/awesome-europe ; **texte de cette liste** |
 | CC0 1.0 (fichier ; API NOASSERTION) | causa-prima-ai/awesome-invoicing |
 | BSD 3-clause (fichier ; API NOASSERTION) | akretion/factur-x |

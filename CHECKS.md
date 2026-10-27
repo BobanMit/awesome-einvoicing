@@ -19,6 +19,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 
 | URL | HTTP | Date fetch | Licence | Vit encore ? | Citation courte |
 |---|---|---|---|---|---|
+| https://checkxrechnung.com/ | 200 (GET) | 27 oct. 2026 | n/a (service web) | oui | description JSON-LD « Kostenloser XRechnung und ZUGFeRD Validator mit offiziellen KoSIT-Regeln » ; H1 « XRechnung & ZUGFeRD prüfen – kostenlos » ; `POST /v1/validate` ; « kostenlos (50 pro IP und UTC-Tag) » ; entrée proposée par son opérateur |
 | https://github.com/ConnectingEurope/eInvoicing-EN16931 | 200 | 18 oct. 2026 | EUPL 1.2 (`LICENSE.txt`) ; API `NOASSERTION` | oui — push 2026-10-12 ; stars 261 ; not archived | description API « Validation artefacts for the European eInvoicing standard EN 16931 » ; `releases/latest` = `validation-1.3.17` (2026-10-12T12:28:45Z) |
 | https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/README.md | 200 | 18 oct. 2026 | (même dépôt) | oui | « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » |
 | https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/LICENSE.txt | 200 | 18 oct. 2026 | EUPL 1.2 | — | « Licensed under European Union Public Licence (EUPL) version 1.2. » |

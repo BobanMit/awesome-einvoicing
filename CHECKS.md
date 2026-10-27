@@ -53,6 +53,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://annehmbar.com/ | 200 | 24 oct. 2026 | n/a | oui — config v2026-08-31 | H1 « XRechnung und ZUGFeRD prüfen: Wird Ihre Rechnung angenommen? » ; marque « Annehmbar » ; « Regeländerungs-Alarm 0 € bis 31.12.2026, danach 19 € / Monat » ; `/api/rules` → `"config": "v2026-08-31"` ; ancienne adresse `xrechnung.jestr.ai` → 301 ; entrée proposée par son opérateur (#7) |
 | https://www.b2brouter.net/fr/factur-x-validator/ | 200 | 11 oct. 2026 | n/a | oui | title « […] conforme et gratuit » (leur title) |
 | https://www.b2brouter.net/fr/tarifs/ | 200 | 11 oct. 2026 | n/a | oui | Basic 0 eur / à vie ; Professional 110 eur / an + TVA ; Business 300 eur / an + TVA |
+| https://coretool.de/e-rechnung-pruefen | 200 | 27 oct. 2026 | n/a | oui | « Kostenlos · ohne Anmeldung · Datei wird nicht gespeichert » ; entrée proposée par son auteur |
 | https://e-rechnung-api.fly.dev/ | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | H1 « ZUGFeRD & Factur-X API für Entwickler » ; Test 0€, Prepaid 10€ / 100 Dok. |
 | https://e-rechnung-api.fly.dev/validator | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | title « Kostenloser ZUGFeRD & XRechnung Validator (EN 16931) \| E-Rechnung online prüfen » |
 | https://formatx.fr/ | 200 | 11 oct. 2026 | n/a | oui | title « FormatX - Convertir PDF en Factur-X gratuitement \| Facture électronique conforme » ; schema.org `"price":"0"` EUR |

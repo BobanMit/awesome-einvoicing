@@ -19,7 +19,6 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 
 | URL | HTTP | Date fetch | Licence | Vit encore ? | Citation courte |
 |---|---|---|---|---|---|
-| https://checkxrechnung.com/ | 200 (GET) | 27 oct. 2026 | n/a (service web) | oui | description JSON-LD « Kostenloser XRechnung und ZUGFeRD Validator mit offiziellen KoSIT-Regeln » ; H1 « XRechnung & ZUGFeRD prüfen – kostenlos » ; `POST /v1/validate` ; « kostenlos (50 pro IP und UTC-Tag) » ; entrée proposée par son opérateur |
 | https://github.com/ConnectingEurope/eInvoicing-EN16931 | 200 | 18 oct. 2026 | EUPL 1.2 (`LICENSE.txt`) ; API `NOASSERTION` | oui — push 2026-10-12 ; stars 261 ; not archived | description API « Validation artefacts for the European eInvoicing standard EN 16931 » ; `releases/latest` = `validation-1.3.17` (2026-10-12T12:28:45Z) |
 | https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/README.md | 200 | 18 oct. 2026 | (même dépôt) | oui | « This repository does not contain eInvoicing-EN16931 rules for any CIUS. » |
 | https://raw.githubusercontent.com/ConnectingEurope/eInvoicing-EN16931/master/LICENSE.txt | 200 | 18 oct. 2026 | EUPL 1.2 | — | « Licensed under European Union Public Licence (EUPL) version 1.2. » |
@@ -54,6 +53,7 @@ Relevé partiel **2026-10-18** (`2026-10-18T11:01:53Z`, lignes `facturxapi` à `
 | https://annehmbar.com/ | 200 | 24 oct. 2026 | n/a | oui — config v2026-08-31 | H1 « XRechnung und ZUGFeRD prüfen: Wird Ihre Rechnung angenommen? » ; marque « Annehmbar » ; « Regeländerungs-Alarm 0 € bis 31.12.2026, danach 19 € / Monat » ; `/api/rules` → `"config": "v2026-08-31"` ; ancienne adresse `xrechnung.jestr.ai` → 301 ; entrée proposée par son opérateur (#7) |
 | https://www.b2brouter.net/fr/factur-x-validator/ | 200 | 11 oct. 2026 | n/a | oui | title « […] conforme et gratuit » (leur title) |
 | https://www.b2brouter.net/fr/tarifs/ | 200 | 11 oct. 2026 | n/a | oui | Basic 0 eur / à vie ; Professional 110 eur / an + TVA ; Business 300 eur / an + TVA |
+| https://checkxrechnung.com/ | 200 (GET) | 28 oct. 2026 | n/a (service web) | oui | description JSON-LD « Kostenloser XRechnung und ZUGFeRD Validator mit offiziellen KoSIT-Regeln » ; H1 « XRechnung & ZUGFeRD prüfen – kostenlos » ; `POST /v1/validate` ; « kostenlos (50 pro IP und UTC-Tag) » ; « API / Batch ab €79/Monat » = liste d’attente (« Batch und höheres Volumen bleiben eine Warteliste ab €79/Monat. ») ; entrée proposée par son opérateur (#27) |
 | https://e-rechnung-api.fly.dev/ | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | H1 « ZUGFeRD & Factur-X API für Entwickler » ; Test 0€, Prepaid 10€ / 100 Dok. |
 | https://e-rechnung-api.fly.dev/validator | HEAD **405** / GET **200** | 11 oct. 2026 | n/a | oui | title « Kostenloser ZUGFeRD & XRechnung Validator (EN 16931) \| E-Rechnung online prüfen » |
 | https://formatx.fr/ | 200 | 11 oct. 2026 | n/a | oui | title « FormatX - Convertir PDF en Factur-X gratuitement \| Facture électronique conforme » ; schema.org `"price":"0"` EUR |
